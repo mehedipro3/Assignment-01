@@ -248,7 +248,7 @@
 .skill-content {
   display: flex;
   gap: 24px;
-margin-top: 48px;
+margin-bottom: 48px;
 }
 
 .skill img {
@@ -310,4 +310,32 @@ font-family: Azeret Mono;
 font-size: 16px;
 font-weight: 700;
 
+}
+
+
+/* last section style  */
+.last-section{
+left: 150px;
+right: 150px;
+top: 4752px;
+bottom: 180px;
+border: 2px solid black;
+margin: 0 auto;
+border-radius: 16px;
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+background-image: url('../assets/handshake.jpg');
+background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.last-section-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.last-section h2{
+  color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
 }
