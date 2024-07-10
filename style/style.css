@@ -212,7 +212,102 @@
   height: 614px;
   background: rgb(255, 255, 255);
 }
-.inspirat-box iframe{
+
+.inspirat-box iframe {
   margin: 30px 30px;
   border-radius: 16px;
+}
+
+/* My Current Target section style  */
+.Current-Target-section {
+  width: 1140px;
+  height: 550px;
+  margin: 0 auto;
+  margin-top: 151px;
+
+}
+
+.Current-Target-section h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.Current-Target-section p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-top: 24px;
+  text-align: center;
+}
+
+.skill-content {
+  display: flex;
+  gap: 24px;
+margin-top: 48px;
+}
+
+.skill img {
+  width: 39.68px;
+  height: 56px;
+
+}
+
+.skill-html {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+
+.skill-html .skill-title {
+  margin-top: 24px;
+}
+.skill-css {
+  border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+padding: 40px;
+}
+
+.skill-css .skill-title {
+  margin-top: 24px;
+}
+.skill-js {
+  border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+  padding: 40px;
+}
+
+.skill-js .skill-title {
+  margin-top: 24px;
+}
+
+.skill .skill-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.skill .skill-description {
+  width: 284px;
+  height: 52px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.learn-tag {
+ 
+margin: 24px 0px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+
 }
