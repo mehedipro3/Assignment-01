@@ -315,11 +315,12 @@ font-weight: 700;
 
 /* last section style  */
 .last-section{
+  width: 1044px;
+  height: 186px;
 left: 150px;
 right: 150px;
 top: 4752px;
 bottom: 180px;
-border: 2px solid black;
 margin: 0 auto;
 border-radius: 16px;
 background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
@@ -327,15 +328,74 @@ background-image: url('../assets/handshake.jpg');
 background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: overlay;
+  padding: 10px 20px 10px 20px;
 }
 .last-section-content{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 .last-section h2{
   color: rgb(255, 255, 255);
 font-family: Azeret Mono;
 font-size: 32px;
+}
+.last-section p{
+  width: 606px;
+  height: 52px;
+  color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+opacity: 0.7;
+}
+.last-section-content input{
+  box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+width: 548px;
+height: 57px;
+padding: 19px 20px 19px 20px;
+}
+.submit-btn button{
+  width: 120px;
+height: 58px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+}
+
+/* footer content style  */
+
+.footer-nav{
+  width: 1349px;
+height: 80px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+padding: 32px 150px 32px 150px;
+margin-top: 79px;
+}
+.footer-nav-content{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-nav-content p{
+  width: 390px;
+height: 24px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+}
+.footer-nav-content a{
+  width: 36px;
+height: 36px;
 }
